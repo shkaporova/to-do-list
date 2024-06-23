@@ -1,0 +1,49 @@
+.note {
+  max-width: 600px;
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+
+.note__data {
+  flex: 1;
+}
+
+.note__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h3 {
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+    color: #808080;
+  }
+}
+
+.note__bth {
+  display: flex;
+  gap: 10px;
+}
+
+.note__checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.checked {
+  background-color: lightblue;
+}
+
+.done {
+  text-decoration: line-through;
+}
